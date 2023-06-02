@@ -118,7 +118,7 @@ input {
     color: white;
     position: absolute;
     top: 0;
-    right: 40px;
+    right:40px;
     line-height: 70px;
     cursor: pointer;
     font-size: 25px;
@@ -171,6 +171,11 @@ input {
   color: white;
   font-weight: bold;
 }
+@media screen and (max-width:"418px"){
+  .icon{
+    right: 15px;
+  }
+}
 @media screen and(max-width:"378px") {
   nav ul {
     margin-right: .3rem;
@@ -179,6 +184,11 @@ input {
     backdrop-filter: blur(20px);
     border-radius: 16px;
     border: 1px solid black;
+  }
+  .icon {
+   
+    right:15px;
+  
   }
 }
 

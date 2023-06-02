@@ -46,9 +46,12 @@ nav ul ul {
 }
 nav ul li:hover > ul {
   top: 70px;
+  padding-top: 20px;
   opacity: 1;
   visibility: visible;
-  width: 25rem;
+  // width: 25rem;
+  padding-right: 40px;
+  margin-right: 2rem;
 }
 nav ul ul li {
   position: relative;
@@ -146,15 +149,15 @@ input {
   }
 }
 /////custom
+
 .bg-dropdown {
-  background: #02050e88;
+  background: #1f233188;
   backdrop-filter: blur(20px);
   border-radius: 16px;
   border: 1px solid black;
 }
-
 .navbar-scrolled {
-  background: #02050e88;
+  background: #1f233188;
   backdrop-filter: blur(20px);
   transition: 0.6s ease-in-out;
 }
@@ -177,5 +180,5 @@ input {
     border-radius: 16px;
     border: 1px solid black;
   }
-
 }
+

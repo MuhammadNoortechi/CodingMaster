@@ -110,6 +110,11 @@
     font-size: 30px;
   }
 }
+@media screen and (max-width:"470px") {
+  .hero-text{
+    padding-top: 30rem;
+  }
+}
 /////
 .text-gradient {
   background: -webkit-linear-gradient(#eee, #91e8ee);

@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="container container-hero">
           <div className="wrapper pt-5">
             <div className="row">
-              <div className="col-lg-6 d-flex align-items-center">
+              <div className="col-md-6 d-flex align-items-center">
                 <div className="">
                   <div className="hero-text">We Build</div>
                   <div className="hero-heading text-gradient display-5 mt-2 ">
@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 d-flex justify-content-center align-items-center life">
+              <div className="col-md-6 d-flex justify-content-center align-items-center life">
                 <div className="img-i d-flex justify-content-end align-items-center">
                   <img src={robot} alt="" className="w-100" />
                 </div>

@@ -36,7 +36,6 @@ nav ul li .links {
 }
 nav ul li .links:hover {
   color: #91e8ee;
-
 }
 nav ul ul {
   position: absolute;
@@ -49,12 +48,12 @@ nav ul li:hover > ul {
   top: 70px;
   opacity: 1;
   visibility: visible;
-  width: 30rem;
+  width: 25rem;
 }
 nav ul ul li {
   position: relative;
   margin: 0px;
-   letter-spacing: 3px;
+  letter-spacing: 3px;
   float: none;
   display: list-item;
 }
@@ -86,20 +85,17 @@ input {
   }
   nav .logo {
     width: 100%;
-    
   }
   .show + .links,
   ul {
     display: none;
- 
+
     padding-bottom: 2rem;
   }
   nav ul li,
   nav ul ul li {
     display: block;
     width: 100%;
-   
-   
   }
   .show {
     display: block;
@@ -132,36 +128,25 @@ input {
     display: none;
     opacity: 1;
     visibility: visible;
-
   }
   nav ul ul .links {
     padding-left: 40px;
-
   }
   nav ul ul ul .links {
     padding-left: 80px;
-  
   }
   nav ul ul ul li {
     position: static;
-
   }
   [id^="btn"]:checked + ul {
     display: block;
   }
   nav ul ul li {
     border-bottom: 0px;
-  
   }
 }
 /////custom
 .bg-dropdown {
-  // background: rgba(255, 255, 255, 0.2);
-  // border-radius: 16px;
-  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  // backdrop-filter: blur(5px);
-  // -webkit-backdrop-filter: blur(5px);
-  // border: 1px solid rgba(255, 255, 255, 0.3);
   background: #02050e88;
   backdrop-filter: blur(20px);
   border-radius: 16px;
@@ -169,13 +154,6 @@ input {
 }
 
 .navbar-scrolled {
-  // background: rgba(255, 255, 255, 0.2);
-
-  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  // backdrop-filter: blur(14.5px);
-  // -webkit-backdrop-filter: blur(14.5px);
-  // border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  // background-color:rgba(0, 0, 0, 0.497);
   background: #02050e88;
   backdrop-filter: blur(20px);
   transition: 0.6s ease-in-out;
@@ -189,4 +167,15 @@ input {
   background: #91e8ee;
   color: white;
   font-weight: bold;
+}
+@media screen and(max-width:"378px") {
+  nav ul {
+    margin-right: 4px;
+    float: left;
+    background: #02050e88;
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    border: 1px solid black;
+  }
+
 }

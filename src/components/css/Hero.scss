@@ -102,7 +102,14 @@
     justify-content: center;
   }
 }
-
+@media screen and(max-width:"378px"){
+  .hero-text{
+    padding-top: 8rem;
+  }
+  .hero-heading{
+    font-size: 30px;
+  }
+}
 /////
 .text-gradient {
   background: -webkit-linear-gradient(#eee, #91e8ee);

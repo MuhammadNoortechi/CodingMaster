@@ -1,8 +1,6 @@
 import React from "react";
 import "./css/Hero.scss";
-
 import robot from "./assets/robot.png";
-import User from "./user/User";
 const Hero = () => {
   return (
     <>
@@ -23,9 +21,9 @@ const Hero = () => {
                     Software Development{" "}
                   </div>
                   <div className="btnlinkhero">
-                  <button className="btn  mt-4 btn-nav-link-hero rounded-0 fw-bold ">
-                    Explore More
-                  </button>
+                    <button className="btn  mt-4 btn-nav-link-hero rounded-0 fw-bold ">
+                      Explore More
+                    </button>
                   </div>
                 </div>
               </div>
@@ -39,9 +37,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-       
       </div>
-      <User/>
     </>
   );
 };

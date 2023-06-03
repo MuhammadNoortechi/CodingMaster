@@ -1,3 +1,33 @@
 .bg{
     background:#02050e;
+    
+}
+.user-three{
+    display: flex;
+    justify-content: end;
+}
+.text-user{
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width:"755px") {
+    .user-one{
+        display: flex;
+        justify-content: center;
+    }
+    .user-three{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:"755px") {
+   .gf{
+  
+ padding:1rem;
+   }
+   .gfy{
+    padding-top: 8rem;
+   }
 }

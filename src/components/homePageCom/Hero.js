@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/Hero.scss";
-import robot from "./assets/robot.png";
+import "../css/Hero.scss";
+import robot from "../assets/robot.png";
 const Hero = () => {
   return (
     <>

@@ -28,6 +28,12 @@
  padding:1rem;
    }
    .gfy{
-    padding-top: 8rem;
+    padding-top: 10rem;
    }
 }
+@media screen and (max-width:"414px" ) {
+ 
+    .gfy{
+     padding-top: 7rem;
+    }
+ }

@@ -1,0 +1,29 @@
+.bg-user {
+  background: var(--bg-primary);
+}
+.btn-user {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.icon-star {
+  color: #91e8ee;
+  background: #91e8ee3d;
+  border-radius: 100px;
+  
+  
+}
+.first-user {
+  background: transparent;
+  padding: 15px;
+}
+.first-user:hover {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  border-radius: 10px;
+
+}

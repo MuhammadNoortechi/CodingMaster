@@ -1,9 +1,126 @@
-import React from 'react'
-
+import React from "react";
+import "../css/Services.scss";
+import robotic from "../assets/robotic.png";
+import blockchain from "../assets/blockchain.png";
+import ai from "../assets/ai.png";
+import devops from "../assets/devops.png";
+import datasci from "../assets/datasci.png";
+import iot from "../assets/iot.png";
+import seo from "../assets/seo.png";
 const Services = () => {
   return (
-    <div className='text-white' style={{background:"#000",height:"100vh"}}>Services</div>
-  )
-}
+    <>
+      <section id="features" className="section-padding">
+        <div className="container">
+          <div className="section-header text-center ">
+            <div className="section-title wow fadeInDown text-white display-4 fw-bold">
+              Services
+            </div>
+            <div className="shape wow fadeInDown"></div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+              <div className="content-left">
+                <div className="box-item animated wow fadeInLeft">
+                  <span className="icon-services">
+                    <img src={blockchain} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">Blockchain Web 3</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="box-item animated wow fadeInLeft"
+                  data-wow-delay="0.6s"
+                >
+                  <span className="icon-services">
+                    <img src={ai} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">Artificial Intelligence</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="box-item animated wow fadeInLeft"
+                  data-wow-delay="0.9s"
+                >
+                  <span className="icon-services">
+                    <img src={devops} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">DevOps</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-o">
+              <div className="show-box animated wow fadeInUp  ">
+                <img src={robotic} alt="" />
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+              <div className="content-right">
+                <div className="box-item animated wow fadeInRight">
+                  <span className="icon-services">
+                    <img src={seo} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">SEO</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="box-item animated wow fadeInRight"
+                  data-wow-delay="0.6s"
+                >
+                  <span className="icon-services">
+                    <img src={datasci} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">Data Science</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="box-item animated wow fadeInRight"
+                  data-wow-delay="0.9s"
+                >
+                  <span className="icon-services">
+                    <img src={iot} alt="" className="w-100" />
+                  </span>
+                  <div className="text">
+                    <div className="fs-4 fw-bold">Internet of things</div>
+                    <p className="mt-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
-export default Services
+export default Services;

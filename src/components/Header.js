@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./css/Header.scss";
 import { NavLink } from "react-bootstrap";
+import Button from "./button/Button"
 const Header = () => {
   const [color, setColor] = useState(false);
   const [isMobile,setIsMobile]=useState(false)
@@ -122,9 +123,10 @@ const Header = () => {
             Blog
           </NavLink>
         </li>
-        <button className="btn  mt-2 btn-nav-link rounded-0 fw-bold">
+        {/* <button className="btn  mt-2 btn-nav-link rounded-0 fw-bold">
          Get In Touch
-        </button>
+        </button> */}
+        <Button label={"get in touch"} />
       </ul>
     </nav>
   </div>

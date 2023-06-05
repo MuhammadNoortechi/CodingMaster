@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Hero.scss";
 import robot from "../assets/robot.png";
+import Button from "../button/Button"
 const Hero = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Hero = () => {
           <div className="wrapper pt-5">
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
-                <div className="">
+                <div className="mt-5">
                   <div className="hero-text">We Build</div>
                   <div className="hero-heading text-gradient display-5 mt-2 ">
                     Agile <span className="heading-span-tag ">Software</span>{" "}
@@ -20,10 +21,9 @@ const Hero = () => {
                     Artificial Intelligence | Blockchain | React.Js | Angular |
                     Software Development{" "}
                   </div>
-                  <div className="btnlinkhero">
-                    <button className="btn  mt-4 btn-nav-link-hero rounded-0 fw-bold ">
-                      Explore More
-                    </button>
+                  <div className="btnlinkhero mt-3">
+                   
+                   <Button label={"Explore more"}/>
                   </div>
                 </div>
               </div>

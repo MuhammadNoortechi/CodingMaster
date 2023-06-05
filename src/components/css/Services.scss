@@ -1,0 +1,108 @@
+.section-padding {
+  padding: 60px 0;
+
+  background: var(--bg-primary);
+}
+
+#features .icon-services {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#features .content-left span {
+  float: right;
+}
+
+#features .content-left .text {
+  text-align: right;
+}
+
+#features .content-right span {
+  float: left;
+}
+
+#features .box-item {
+  padding: 15px;
+  line-height: 22px;
+  margin-top: 30px;
+  border-radius: 3px;
+
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  color: White;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -mox-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 0;
+}
+
+#features .box-item .icon-services {
+  text-align: center;
+  margin: 12px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#features .box-item .icon-services {
+  color: #008de2;
+  font-size: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#features .box-item .text h4 {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#features .box-item:hover {
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+}
+
+#features .box-item:hover h4 {
+  color: #008de2;
+}
+
+#features .show-box {
+  margin-top: 50px;
+}
+
+#features .show-box img {
+  width: 100%;
+}
+// .bg-o {
+//   position: relative;
+// }
+// .sercive-img-gradient {
+//   background: linear-gradient(
+//     180deg,
+//     rgba(143, 218, 255, 0.744) 50%,
+//     #3381ca 100%
+//   );
+//   filter: blur(153px);
+
+//   z-index: 1;
+//   bottom: 50%;
+//   left: 30%;
+// }

@@ -2,3 +2,10 @@ body{
 font-family: 'Urbanist', sans-serif;
 }
 
+:root{
+    --bg-primary:#02050e;
+    /* navbarscrolled */
+    --bg-secondary:#02050e83;
+
+      
+}

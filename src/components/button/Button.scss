@@ -1,0 +1,11 @@
+.btn-user{
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+
+.btn-user:hover{
+   background: #91e8ee;
+   border: none;
+}

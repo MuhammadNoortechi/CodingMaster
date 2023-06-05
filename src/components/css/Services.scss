@@ -106,3 +106,9 @@
 //   bottom: 50%;
 //   left: 30%;
 // }
+
+@media screen and (max-width:420px){
+  .section-padding {
+padding-top: 30rem;
+  }
+}

@@ -99,7 +99,7 @@ const Services = () => {
       </div>
     </div>
     <div class="center-logo">
-      <div className="fs-3 text-white">hellondsnsidsi</div>
+      <div className="fs-4 text-white">Coding Master</div>
     </div>
   </div>
 </section>

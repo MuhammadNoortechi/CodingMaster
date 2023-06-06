@@ -300,7 +300,7 @@ padding-top: 16rem;
 }
 
 
-@media screen and (max-width:"420px"){
+@media   (min-width:"360px")and (max-width:"550px"){
   .main {
   
     width: 280px;
@@ -311,5 +311,19 @@ padding-top: 16rem;
  .icon-block{
   width:33px;
   height:33px;
+ }
+}
+
+@media   (min-width:"220px")and (max-width:"360px"){
+  .main {
+  
+    width:200px;
+    height:200px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+  }
+ .icon-block{
+  width:19px;
+  height:19px;
  }
 }

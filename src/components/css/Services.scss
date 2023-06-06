@@ -1,6 +1,6 @@
 .section-padding {
   padding: 60px 0;
-
+   width: 100%;
   background: var(--bg-primary);
 }
 
@@ -125,11 +125,11 @@ padding-top: 16rem;
   display: -webkit-flex;
  justify-content: center;
   
-  height: 560px;
+
   // overflow: hidden;
 }
 .main {
-  margin: 0px auto;
+  
   width: 350px;
   height: 350px;
   position: relative;
@@ -138,7 +138,7 @@ padding-top: 16rem;
   height: 100%;
   width: 100%;
   position: relative;
-  border: 3px solid #6495f2;
+  border: 3px solid #6496f28d;
   border-radius: 50%;
   display: flex;
   display: -webkit-flex;
@@ -150,8 +150,8 @@ padding-top: 16rem;
   -webkit-animation: Rotate 20s linear infinite;
 }
 .icon-block {
-  width: 44px;
-  height: 44px;
+  width:44px;
+  height:44px;
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -160,14 +160,14 @@ padding-top: 16rem;
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
-  background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  -webkit-background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  box-shadow: 0 2px 4px 0 #3e5ada;
+  background-image: linear-gradient(180deg, #339fca8b 0%, #11101d 100%);
+  -webkit-background-image: linear-gradient(180deg, #49c4e6 0%, #627bf4 100%);
+  box-shadow: 0 2px 4px 0 #747786;
   -webkit-box-shadow: 0 2px 4px 0 #3e5ada;
 }
 .icon-block img {
-  margin: 0px auto;
-  width: 86%;
+ 
+  width:86%;
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
 }
@@ -206,7 +206,7 @@ padding-top: 16rem;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
   width: 75%;
   height: 75%;
-  border: 3px solid #6495f2;
+  border: 3px solid #6496f28d;
   border-radius: 50%;
 }
 .circle .icon-block img {
@@ -297,4 +297,19 @@ padding-top: 16rem;
   to {
     -webkit-transform: rotate(-405deg);
   }
+}
+
+
+@media screen and (max-width:"420px"){
+  .main {
+  
+    width: 280px;
+    height: 280px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+  }
+ .icon-block{
+  width:33px;
+  height:33px;
+ }
 }

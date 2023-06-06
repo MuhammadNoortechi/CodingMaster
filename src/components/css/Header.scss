@@ -156,6 +156,12 @@ input {
   border-radius: 16px;
   border: 1px solid black;
 }
+.bg-dropdown-scrolled {
+  background: #1f233188;
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  border: 1px solid black;
+}
 .navbar-scrolled {
   background: var(--bg-secondary);
   backdrop-filter: blur(20px);

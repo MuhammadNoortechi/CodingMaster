@@ -99,7 +99,7 @@ const Services = () => {
       </div>
     </div>
     <div class="center-logo">
-      <img src="https://ucarecdn.com/575315c0-5cdc-4f21-99d2-904d85a359a6/logo.png" alt="logo" />
+      <div className="fs-3 text-white">hellondsnsidsi</div>
     </div>
   </div>
 </section>

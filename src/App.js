@@ -6,6 +6,7 @@ import Services from "./components/pages/Services";
 import Career from "./components/pages/Career"
 import Blog from "./components/pages/Blog"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import whatsappbutton from "../src/components/assets/whatsappbutton.png"
 const App = () => {
   return (
     <>

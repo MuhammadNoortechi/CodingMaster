@@ -72,8 +72,8 @@ const Services = () => {
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-o">
               <div className="show-box animated wow fadeInUp  ">
                 {/* <img src={robotic} alt="" /> */}
-                <section className="main-container">
-  <div className="main">
+                <section className="main-container ">
+  <div className="main ">
     <div className="big-circle">
       <div className="icon-block p-1 p-1">
         <img src={blockchain} alt="web design icon" />

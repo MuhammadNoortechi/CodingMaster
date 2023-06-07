@@ -14,6 +14,7 @@ const Services = () => {
   return (
     <>
       <section id="features" className="section-padding">
+     
         <div className="container">
           <div className="section-header text-center ">
             <div className="section-title wow fadeInDown text-white display-4 fw-bold">
@@ -157,6 +158,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        
       </section>
     </>
   );

@@ -9,6 +9,27 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
+       <div 
+             style={{
+              position: "fixed",
+              bottom: "5%",
+              right: "5%",
+              zIndex: 10,
+            }}
+        >
+          <a
+            href="https://api.whatsapp.com/send?phone=+923214100432&text=Hi, Bilal Iqbal!"
+            class="whatsapp-button"
+            target="_blank"
+            rel="noreferrer"
+            style={{ bottom: "15px" }}
+          >
+            <img
+              src="https://i.ibb.co/VgSspjY/whatsapp-button.png"
+              alt="whatsapp"
+            />
+          </a>
+        </div>
       <Router>
         <Header />
         <Routes>

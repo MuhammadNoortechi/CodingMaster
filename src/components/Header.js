@@ -136,7 +136,11 @@ const Header = () => {
           {/* <button className="btn  mt-2 btn-nav-link rounded-0 fw-bold">
          Get In Touch
         </button> */}
-          <Button label={"get in touch"} />
+           <Link className="links" >
+          
+           <Button label={"Get in touch"}/>
+         
+          </Link>
         </ul>
       </nav>
     </div>

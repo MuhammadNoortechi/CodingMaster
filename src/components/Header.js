@@ -27,7 +27,7 @@ const Header = () => {
           {isMobile ? (
             <i className="fas fa-times"></i>
           ) : (
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars fdf"></i>
           )}
         </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
                   Feature 2
                 </Link>
               </li>
-              <li className="li-container">
+              <li className="li-container pb-3">
                 <Link className="links" href="#">
                   Feature 3
                 </Link>
@@ -82,7 +82,7 @@ const Header = () => {
             <ul className="bg-dropdown ul-container">
               <li className="li-container">
                 <Link className="links" href="#">
-                  Custom Software Development
+                  Project Management
                 </Link>
               </li>
               <li className="li-container">
@@ -95,30 +95,10 @@ const Header = () => {
                   Mobile App Development
                 </Link>
               </li>
-              <li className="li-container">
+              <li className="li-container pb-3">
                 <Link className="links" href="#">
                   Search Engine Optimization
                 </Link>
-              </li>
-              <li className="li-container">
-                <label for="btn-3" className="show">
-                  More+
-                </label>
-                <Link className="links" href="#">
-                  More <span className="fa fa-plus"></span>
-                </Link>
-                <input type="checkbox" id="btn-3" />
-                {/* <ul >
-                <li>
-                  <NavLink className="links" href="#">Submenu 1</NavLink>
-                </li>
-                <li>
-                  <NavLink className="links" href="#">Submenu 2</NavLink>
-                </li>
-                <li>
-                  <NavLink className="links" href="#">Submenu 3</NavLink>
-                </li>
-              </ul> */}
               </li>
             </ul>
           </li>

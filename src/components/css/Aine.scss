@@ -1,0 +1,28 @@
+.bg-aine-sec {
+  background: #02050e;
+}
+.icon-aine {
+  background: rgba(60, 202, 224, 0.223);
+  border-radius: 100px;
+  color: rgb(76, 188, 233);
+}
+//
+.icon-anie{
+  background: #35b6c27c;
+  color: aqua;
+  border-radius: 30px;
+}
+.bg-hover{
+  background: transparent;
+  border-radius: 15px;
+}
+.bg-hover:hover{
+  background: linear-gradient(
+    144.39deg,
+    #fff -278.56%,
+    #339fca8b -78.47%,
+    #11101d 91.61%
+  );
+  transition: 0.4s ease-in-out;
+  border-radius: 15px;
+}

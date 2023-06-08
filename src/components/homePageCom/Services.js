@@ -7,14 +7,13 @@ import devops from "../assets/devops.png";
 import datasci from "../assets/datasci.png";
 import iot from "../assets/iot.png";
 import seo from "../assets/seo.png";
-import angular from "../assets/angular.png"
-import android from "../assets/android.png"
-import magento from "../assets/magento.png"
+import angular from "../assets/angular.png";
+import android from "../assets/android.png";
+import magento from "../assets/magento.png";
 const Services = () => {
   return (
     <>
       <section id="features" className="section-padding">
-     
         <div className="container">
           <div className="section-header text-center ">
             <div className="section-title wow fadeInDown text-white display-4 fw-bold">
@@ -72,42 +71,41 @@ const Services = () => {
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-o">
               <div className="show-box animated wow fadeInUp  ">
                 {/* <img src={robotic} alt="" /> */}
-                <section className="main-container ">
-  <div className="main ">
-    <div className="big-circle">
-      <div className="icon-block p-1 p-1">
-        <img src={blockchain} alt="web design icon" />
-      </div>
-      <div className="icon-block p-1">
-        <img src={ai} alt="game design icon" />
-      </div>
-      <div className="icon-block p-1">
-        <img src={devops} alt="game dev icon" />
-      </div>
-      <div className="icon-block p-1">
-        <img src={datasci} alt="ui-ux icon" />
-      </div>
-    </div>
-    <div className="circle">
-      <div className="icon-block p-1">
-        <img src={seo} alt="app icon" />
-      </div>
-      <div className="icon-block p-2">
-        <img src={magento} alt="blockchain icon" />
-      </div>
-      <div className="icon-block p-1">
-        <img src={android} alt="ar-vr icon" />
-      </div>
-      <div className="icon-block p-2">
-        <img src={angular} alt="artificial intelligence icon" />
-      </div>
-     
-    </div>
-    <div className="center-logo">
-      <div className="fs-4 text-white">Coding Master</div>
-    </div>
-  </div>
-</section>
+                <section className="main-container pt-5">
+                  <div className="main ">
+                    <div className="big-circle">
+                      <div className="icon-block p-1 p-1">
+                        <img src={blockchain} alt="web design icon" />
+                      </div>
+                      <div className="icon-block p-1">
+                        <img src={ai} alt="game design icon" />
+                      </div>
+                      <div className="icon-block p-1">
+                        <img src={devops} alt="game dev icon" />
+                      </div>
+                      <div className="icon-block p-1">
+                        <img src={datasci} alt="ui-ux icon" />
+                      </div>
+                    </div>
+                    <div className="circle">
+                      <div className="icon-block p-1">
+                        <img src={seo} alt="app icon" />
+                      </div>
+                      <div className="icon-block p-2">
+                        <img src={magento} alt="blockchain icon" />
+                      </div>
+                      <div className="icon-block p-1">
+                        <img src={android} alt="ar-vr icon" />
+                      </div>
+                      <div className="icon-block p-2">
+                        <img src={angular} alt="artificial intelligence icon" />
+                      </div>
+                    </div>
+                    <div className="center-logo">
+                      <div className="fs-4 text-white">Coding Master</div>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -158,7 +156,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-        
       </section>
     </>
   );

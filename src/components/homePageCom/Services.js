@@ -16,9 +16,6 @@ const Services = () => {
       <section id="features" className="section-padding">
         <div className="container">
           <div className="section-header text-center ">
-            <div className="section-title wow fadeInDown text-white display-4 fw-bold">
-              Services
-            </div>
             <div className="shape wow fadeInDown"></div>
           </div>
           <div className="row mt-5">
@@ -71,7 +68,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-o">
               <div className="show-box animated wow fadeInUp  ">
                 {/* <img src={robotic} alt="" /> */}
-                <section className="main-container pt-5">
+                <section className="main-container ">
                   <div className="main ">
                     <div className="big-circle">
                       <div className="icon-block p-1 p-1">

@@ -1,20 +1,18 @@
-import React from 'react'
-import Header from '../Header'
-import Hero from "../homePageCom/Hero"
-import Services from '../homePageCom/Services'
-import User from "../homePageCom/User"
-import Aine from '../homePageCom/Aine'
+import React from "react";
+import Header from "../Header";
+import Hero from "../homePageCom/Hero";
+import Services from "../homePageCom/Services";
+import User from "../homePageCom/User";
+import Aine from "../homePageCom/Aine";
 const Home = () => {
   return (
     <>
+      <Hero />
+      <Services />
+      <Aine />
+      <User />
+    </>
+  );
+};
 
-   <Hero/>
-   {/* <User/> */}
-  <Services/>
-  <Aine/>
-  <User/>
-   </>
-  )
-}
-
-export default Home
+export default Home;

@@ -7,7 +7,7 @@ const User = () => {
   return (
     <>
       <div className="bg-user py-5">
-      <div className="img-thk w-25 h-25"></div>
+     
         <div className="container">
         <div className="row ">
           <div className="col-lg-4 ">

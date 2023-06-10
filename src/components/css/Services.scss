@@ -1,8 +1,7 @@
 .section-padding {
   padding: 60px 0;
-   width: 100%;
+  width: 100%;
   background: var(--bg-primary);
- 
 }
 
 #features .icon-services {
@@ -113,24 +112,22 @@
 //   left: 30%;
 // }
 
-@media screen and (max-width:420px){
+@media screen and (max-width: 420px) {
   .section-padding {
-padding-top: 16rem;
+    padding-top: 16rem;
   }
 }
 
 // life
 .main-container {
-  
   display: flex;
   display: -webkit-flex;
- justify-content: center;
-  
+  justify-content: center;
+  padding-top: 2.5rem;
 
   // overflow: hidden;
 }
 .main {
-  
   width: 350px;
   height: 350px;
   position: relative;
@@ -151,9 +148,9 @@ padding-top: 16rem;
   -webkit-animation: Rotate 20s linear infinite;
 }
 .icon-block {
-  width:44px;
-  height:44px;
-  
+  width: 44px;
+  height: 44px;
+
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -168,8 +165,7 @@ padding-top: 16rem;
   -webkit-box-shadow: 0 2px 4px 0 #339fcab1;
 }
 .icon-block img {
- 
-  width:86%;
+  width: 86%;
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
 }
@@ -301,32 +297,37 @@ padding-top: 16rem;
   }
 }
 
-
-@media   (min-width:"360px")and (max-width:"550px"){
+@media (min-width: "360px") and (max-width: "550px") {
   .main {
-  
     width: 280px;
     height: 280px;
     position: relative;
     transition: 0.5s ease-in-out;
   }
- .icon-block{
-  width:33px;
-  height:33px;
- }
+  .icon-block {
+    width: 33px;
+    height: 33px;
+  }
+
 }
 
-@media   (min-width:"220px")and (max-width:"360px"){
+@media (min-width: "220px") and (max-width: "360px") {
   .main {
-  
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     position: relative;
     transition: 0.5s ease-in-out;
   }
- .icon-block{
-  width:19px;
-  height:19px;
- }
+  .icon-block {
+    width: 19px;
+    height: 19px;
+  }
 }
 
+@media screen and (max-width:"920px"){
+  .main-container{
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  
+}

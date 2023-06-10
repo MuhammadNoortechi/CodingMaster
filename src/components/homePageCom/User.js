@@ -6,7 +6,7 @@ import {BsFillSendFill} from "react-icons/bs"
 const User = () => {
   return (
     <>
-      <div className="bg-user py-5">
+      <div className="bg-user pb-3">
      
         <div className="container">
         <div className="row ">

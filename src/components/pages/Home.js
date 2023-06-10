@@ -4,6 +4,7 @@ import Hero from "../homePageCom/Hero";
 import Services from "../homePageCom/Services";
 import User from "../homePageCom/User";
 import Aine from "../homePageCom/Aine";
+import Slider from "../homePageCom/Slider";
 const Home = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Home = () => {
       <Services />
       <Aine />
       <User />
+      <Slider/>
     </>
   );
 };

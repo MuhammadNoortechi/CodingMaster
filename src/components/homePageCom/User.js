@@ -17,10 +17,10 @@ const User = () => {
                   <i className="fa-solid fa-star fs-1 pt-2"></i>
                 
                 </div>
-                <h5 className="text-dark text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2">
+                <h5 className=" text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2 fw-bold">
                 Rewards
                 </h5>
-                <p className=" mt-3 mb-0 text-white fs-5 ">
+                <p className=" mt-1 mb-0 text-white fs-5 ">
                 the best credit card offer some combinations of promotions and prizes
                 </p>
               </div>
@@ -34,10 +34,10 @@ const User = () => {
                 <i class="fa-regular fa-file-shield fs-2 pt-2"></i>
             
                 </div>
-                <h5 className="text-dark text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2">
+                <h5 className=" text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2 fw-bold">
                  100% secured
                 </h5>
-                <p className=" mb-0 mt-3 text-white fs-5">
+                <p className=" mb-0 mt-1 text-white fs-5">
                   We take proactive steps make sure your information and transactions are secure
                 </p>
               </div>
@@ -51,10 +51,10 @@ const User = () => {
                 <i className="fa-solid fa-paper-plane fs-1 pt-2 pe-1"></i>
                   {/* <BsFillSendFill className="i"/> */}
                 </div>
-                <h5 className="text-dark text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2">
+                <h5 className=" text-capitalize mt-3 font-weight-bold text-white pt-1 fs-2 fw-bold">
                   Balance Transfer
                 </h5>
-                <p className=" mb-0 mt-3  text-white fs-5">
+                <p className=" mb-0 mt-1  text-white fs-5">
                   A balance transfer credit card can save you alot of money in interest charges
                 </p>
               </div>

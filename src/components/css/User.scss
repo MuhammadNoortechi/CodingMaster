@@ -1,29 +1,31 @@
 .bg-user {
   background: var(--bg-primary);
+  position: relative;
+
 }
-.btn-user {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
-}
-.icon-star {
-  color: #91e8ee;
-  background: #91e8ee3d;
-  border-radius: 100px;
-  
-  
-}
-.first-user {
-  background: transparent;
-  padding: 15px;
-}
-.first-user:hover {
+
+.about_icon i {
+  font-size: 22px;
+  height: 85px;
+  width: 85px;
+  line-height: 65px;
+  display: inline-block;
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
+    #fff -278.56%,
+    #339fca8b -78.47%,
     #11101d 91.61%
   );
-  border-radius: 10px;
+  border-radius: 55px;
+  color: #4dd0e1;
 
+  // box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.img-thk {
+  background: linear-gradient(90deg, rgb(143, 218, 255) 50%, #3381ca 100%);
+  filter: blur(153px);
+  position: absolute;
+
+  margin-top: 5rem;
 }

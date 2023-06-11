@@ -1,12 +1,11 @@
-import React from 'react'
-import "../css/WhyChoose.scss"
+import React from "react";
+import "../css/WhyChoose.scss";
 const WhyChoose = () => {
   return (
     <>
-  <h1>djsoj</h1>
-
+  <h1>Whychoseus</h1>
     </>
-  )
-}
+  );
+};
 
-export default WhyChoose
+export default WhyChoose;

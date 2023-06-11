@@ -6,6 +6,9 @@ import User from "../homePageCom/User";
 import Aine from "../homePageCom/Aine";
 import Slider from "../homePageCom/Slider";
 import WhyChoose from "../homePageCom/WhyChoose";
+import ContactForm from "../homePageCom/ContactForm";
+import Testimonial from "../homePageCom/Testimonial";
+import Industries from "../homePageCom/Industries";
 const Home = () => {
   return (
     <>
@@ -14,7 +17,9 @@ const Home = () => {
       <Aine />
       <User />
       {/* <Slider/> */}
-      <WhyChoose/>
+    <Industries/>
+      <Testimonial/>
+      <ContactForm/>
     </>
   );
 };

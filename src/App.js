@@ -5,6 +5,7 @@ import About from "./components/pages/About"
 import Services from "./components/pages/Services";
 import Career from "./components/pages/Career"
 import Blog from "./components/pages/Blog"
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import whatsappbutton from "../src/components/assets/whatsappbutton.png"
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );

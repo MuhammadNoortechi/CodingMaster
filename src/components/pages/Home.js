@@ -5,6 +5,7 @@ import Services from "../homePageCom/Services";
 import User from "../homePageCom/User";
 import Aine from "../homePageCom/Aine";
 import Slider from "../homePageCom/Slider";
+import WhyChoose from "../homePageCom/WhyChoose";
 const Home = () => {
   return (
     <>
@@ -12,7 +13,8 @@ const Home = () => {
       <Services />
       <Aine />
       <User />
-      <Slider/>
+      {/* <Slider/> */}
+      <WhyChoose/>
     </>
   );
 };

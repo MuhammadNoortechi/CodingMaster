@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import "../css/ContactForm.scss";
+import building from "../assets/building.png"
 const ContactForm = () => {
+ 
   return (
-    <h1>ContactForm</h1>
-  )
-}
+    <>
+<h1>fgf</h1>
+    </>
+  );
+};
 
-export default ContactForm
+export default ContactForm;

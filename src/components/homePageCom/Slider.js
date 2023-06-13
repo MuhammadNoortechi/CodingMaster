@@ -1,63 +1,71 @@
 import React from 'react'
 import "../css/Slider.scss"
+import reward1 from "../assets/reward1.JPG"
+import reward2 from "../assets/reward2.JPG"
+import reward3 from "../assets/reward3.JPG"
+import reward4 from "../assets/reward4.JPG"
+import reward5 from "../assets/reward5.JPG"
+import reward6 from "../assets/reward6.JPG"
+import reward7 from "../assets/reward7.JPG"
+import reward8 from "../assets/reward8.JPG"
 const Slider = () => {
   return (
    <>
-   <div class="slider ">
+   <div class="slider pb-5">
   <div class="slide-track">
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="" className='img-slider'/>
+      <img src={reward1} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="" className='img-slider'/>
+      <img src={reward2} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward3} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward4} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward5} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward6} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="" className='img-slider'/>
+      <img src={reward1} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="" className='img-slider'/>
+      <img src={reward2} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward3} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward4} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward5} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward6} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="" className='img-slider'/>
+      <img src={reward1} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="" className='img-slider'/>
+      <img src={reward2} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward3} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward4} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward5} alt="" className='img-slider'/>
     </div>
     <div class="slide">
-      <img src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="" className='img-slider'/>
+      <img src={reward6} alt="" className='img-slider'/>
     </div>
   </div>
 </div>

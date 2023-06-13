@@ -10,7 +10,7 @@
   
   /* /// */
   .row-indus{
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
   
   .col-indus {
@@ -21,7 +21,8 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     color: #fff;
     text-align: center;
-    border:rgb(255, 255, 255) 2px solid;
+    // border:rgb(255, 255, 255) 2px solid;
+    border-radius: 150px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
   }

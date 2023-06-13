@@ -9,12 +9,13 @@
     display: flex;
     gap: 3em;
     overflow: hidden;
+   
   }
-  
+
   .slider {
     // margin-top: 70px;
     background: var(--bg-primary);
-    padding: 8em 2em;
+    // padding: 8em 2em;
   }
   
   @keyframes scroll {

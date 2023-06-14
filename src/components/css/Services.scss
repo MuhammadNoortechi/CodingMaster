@@ -308,7 +308,6 @@
     width: 33px;
     height: 33px;
   }
-
 }
 
 @media (min-width: "220px") and (max-width: "360px") {
@@ -324,10 +323,9 @@
   }
 }
 
-@media screen and (max-width:"920px"){
-  .main-container{
+@media screen and (max-width: "920px") {
+  .main-container {
     padding-top: 0;
     padding-bottom: 1rem;
   }
-  
 }

@@ -18,7 +18,7 @@ const Home = () => {
       <User />
      <Industries />
       <Testimonial />
-      <Slider />
+      {/* <Slider /> */}
       <ContactForm />
     </>
   );

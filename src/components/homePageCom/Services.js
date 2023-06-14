@@ -13,6 +13,7 @@ import magento from "../assets/magento.png";
 const Services = () => {
   return (
     <>
+
       <section id="features" className="section-padding">
         <div className="container">
           <div className="section-header text-center ">
@@ -154,6 +155,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+
     </>
   );
 };

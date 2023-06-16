@@ -7,10 +7,10 @@ import coding from "../assets/coding.jpg"
 const Aine = () => {
   return (
     <>
-      <section className="about-section">
-      <div className="img-thk w-25 h-25"></div>
+      <section className="about-section ">
+      <div className="img-thk"></div>
         <div className="container">
-          <div className="row row-aine pt-3">
+          <div className="row row-aine">
             <div className="content-column col-lg-6 col-md-12 col-sm-12 ">
               <div className="inner-column">
                 <div className="sec-title">

@@ -9,6 +9,7 @@ import WhyChoose from "../homePageCom/WhyChoose";
 import ContactForm from "../homePageCom/ContactForm";
 import Testimonial from "../homePageCom/Testimonial";
 import Industries from "../homePageCom/Industries";
+import LetsStart from "../homePageCom/LetsStart";
 const Home = () => {
   return (
     <>
@@ -16,8 +17,9 @@ const Home = () => {
       <Services />
       <Aine />
       <User />
-     <Industries />
+     {/* <Industries /> */}
       <Testimonial />
+      <LetsStart/>
       {/* <Slider /> */}
       <ContactForm />
     </>

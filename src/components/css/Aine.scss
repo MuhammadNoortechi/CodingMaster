@@ -5,11 +5,10 @@
 .row-aine {
   // padding-top: 8rem;
   // padding-bottom: 8rem;
-  
 }
-.about-section {
-  background: #02050e;
-}
+// .about-section {
+//   background: #02050e;
+// }
 
 .sec-title .title {
   position: relative;
@@ -45,6 +44,7 @@
 
 .about-section {
   position: relative;
+  margin-top: 8rem;
 }
 
 .about-section .content-column {
@@ -76,9 +76,16 @@
 }
 
 .img-thk {
-  background: linear-gradient(90deg, rgb(143, 218, 255) 50%, #3381ca 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(64, 189, 252, 0.993) 100%,
+    #054077 100%
+  );
   filter: blur(153px);
   position: absolute;
+  // margin-top: 10rem;
+  width: 170px;
+  height: 170px;
 }
 
 @media screen and (max-width: "1340px") {
@@ -91,6 +98,9 @@
   .row-aine {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+  .about-section {
+    margin-top: 5rem;
   }
 }
 

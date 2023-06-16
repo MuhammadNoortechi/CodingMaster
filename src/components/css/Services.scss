@@ -1,7 +1,7 @@
 .section-padding {
-  padding: 60px 0;
+  // padding: 60px 0;
   width: 100%;
-  background: var(--bg-primary);
+  margin-top: 60px;
 }
 
 #features .icon-services {
@@ -327,5 +327,8 @@
   .main-container {
     padding-top: 0;
     padding-bottom: 1rem;
+  }
+  .section-padding{
+      margin-top: 80px;
   }
 }

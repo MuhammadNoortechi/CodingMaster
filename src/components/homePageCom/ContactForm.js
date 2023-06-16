@@ -13,9 +13,8 @@ const ContactForm = () => {
   // });
   return (
     <>
-     
       {/* //// */}
-      <div className="my-form">
+      <div className="my-form mt-5 pt-5">
         <div className="container">
           <h1 className="text-white fw-bold">Get in touch !</h1>
           <ul className="ul-oiska">
@@ -64,10 +63,12 @@ const ContactForm = () => {
               <input type="checkbox" id="terms" />
               <label for="terms" className="text-white">
                 I have read and agreed with{" "}
-                <a href="" className="terms-contact">the terms and conditions.</a>
+                <a href="" className="terms-contact">
+                  the terms and conditions.
+                </a>
               </label>
             </li>
-            <li >
+            <li>
               <div className="grid grid-3 ">
                 {/* <div className="required-msg">REQUIRED FIELDS</div> */}
                 <button className="btn-grid" type="submit" disabled>

@@ -112,12 +112,16 @@
 //   left: 30%;
 // }
 
-@media screen and (max-width: 420px) {
-  .section-padding {
-    padding-top: 16rem;
-  }
+// @media screen and (max-width: 420px) {
+//   .section-padding {
+//     padding-top: 16rem;
+//   }
+// }
+@media only screen and (max-width: 768px) and (min-width: 250px)  {
+.section-padding{
+  padding-top: 3rem;
 }
-
+}
 // life
 .main-container {
   display: flex;

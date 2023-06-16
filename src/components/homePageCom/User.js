@@ -4,7 +4,7 @@ import "../css/User.scss";
 const User = () => {
   return (
     <>
-      <div className="bg-user">
+      <div className="bg-user-rewards">
         <div className="container">
           <div className="row ">
             <div className="col-lg-4 ">

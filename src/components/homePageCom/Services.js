@@ -19,7 +19,7 @@ const Services = () => {
           <div className="section-header text-center ">
             <div className="shape wow fadeInDown"></div>
           </div>
-          <div className="row mt-5">
+          <div className="row ">
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
               <div className="content-left">
                 <div className="box-item animated wow fadeInLeft">

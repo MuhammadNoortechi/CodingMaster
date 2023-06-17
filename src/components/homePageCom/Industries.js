@@ -8,63 +8,57 @@ import binance from "../assets/binance.png";
 const Industries = () => {
   return (
     <>
-      <div className="bg-industries mt-5">
-        {/* <div className="img-aine w-25 h-25"></div> */}
-        <div className="container">
-          <div className="heading-industries fs-5 text-secondary">
-            Industries we serves
-          </div>
-          <h2 className=" text-gradient">
-            Managed IT Services customized for your industry
-          </h2>
-          <div className="feature pb-5 ">
-            <div className="grid row-indus">
-              <div className="row">
-                <div className=" col-sm-4 col-lg-2">
-                  <div className="col-indus">
-                    <img src={banking} alt="" className="w-50" />
-                    <h6 className="mt-3 ">Banking</h6>
-                  </div>
-                </div>
-
-                <div className=" col-sm-4 col-lg-2">
-                  <div className="col-indus">
-                    <img src={techincal} alt="" className="w-50" />
-                    <h6 className="mt-3 ">Manufacturing</h6>
-                  </div>
-                </div>
-
-                <div className=" col-sm-4 col-lg-2">
-                  <div className="col-indus">
-                    <img src={education} alt="" className="w-50" />
-                    <h6 className="mt-2 "> Education</h6>
-                  </div>
-                </div>
-
-                <div className=" col-sm-4 col-lg-2  ">
-                  <div className="col-indus">
-                    <img src={techincal} alt="" className="w-50" />
-                    <h6 className="mt-3 ">Manufacturing</h6>
-                  </div>
-                </div>
-
-                <div className=" col-sm-4 col-lg-2 ">
-                  <div className="col-indus">
-                    <img src={hospital} alt="" className="w-50" />
-                    <h6 className="mt-3 ">Healthcare</h6>
-                  </div>
-                </div>
-
-                <div className=" col-sm-4 col-lg-2 ">
-                  <div className="col-indus">
-                    <img src={banking} alt="" className="w-50" />
-                    <h6 className="mt-3 ">Banking</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="industries-p">
+      <div className="container">
+        <div className="fs-1 text-white ">
+          We build software you need to succeed
         </div>
+      </div>
+      <section class="hero-section-indus container pt-5">
+        <div class="card-grid">
+          <a href="#" class="card">
+            <div
+              class="card__bg"
+              style={{
+                backgroundImage:
+                  "https://images.unsplash.com/photo-1658519309657-e026d3aa85b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+              }}
+            ></div>
+            <div class="card__content ">
+              <p class="card__category fs-3">100+</p>
+              <h3 class="card__heading text-uppercase">Professional</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <div
+              class="card__bg"
+              style={{
+                backgroundImage:
+                  "https://images.unsplash.com/photo-1658519309657-e026d3aa85b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+              }}
+            ></div>
+            <div class="card__content">
+              <p class="card__category fs-3">150+</p>
+              <h3 class="card__heading text-uppercase">Success stories</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <div
+              class="card__bg"
+              style={{
+                backgroundImage:
+                  "https://images.unsplash.com/photo-1658519309657-e026d3aa85b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+              }}
+            ></div>
+            <div class="card__content">
+              <p class="card__category fs-3">10+</p>
+              <h3 class="card__heading">Pattern</h3>
+            </div>
+          </a>
+        </div>
+      </section>
       </div>
     </>
   );
